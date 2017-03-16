@@ -1,0 +1,162 @@
+@import url('../fonts/Oswald.css')
+
+@import url('../fonts/Catamaran.css')
+
+@import _variables
+
+@import _mixin
+
+body
+  font-family: $oswald,Helvetica,Arial,sans-serif
+
+h1 span
+  line-height: 1.5em
+  padding: 0 0.5em
+
+.content-section-b h2, h3
+  color: #FFF
+
+.verde
+  background-color: $verde
+
+.celeste
+  background-color: $celeste
+
+.naranja
+  background-color: $naranja
+
+.violeta
+  background-color: rgba(104, 45, 130, 1)
+
+.navbar-default
+  background: rgba(51, 51, 51, 0.9)
+  .navbar-nav > li > a
+    color: white
+
+.overlay
+  width: 100%
+  &.default-semidark
+    background: rgba(51, 51, 51, 0.65)
+  &.multi-semidark
+    background: linear-gradient(to right, rgba(238, 131, 8, 0.7) 0%, rgba(137, 202, 64, 0.7) 33%, rgba(51, 195, 196, 0.7) 66%, rgba(51, 195, 196, 0.7) 100%)
+
+.topnav
+  font-size: 14px
+
+.lead
+  font-size: 18px
+  font-weight: 400
+
+.intro-header
+  background-size: cover
+  background: url(../img/how-features.jpg) no-repeat center center
+  color: #f8f8f8
+  padding-top: 50px
+  text-align: center
+
+.intro-message
+  padding-bottom: 20%
+  padding-top: 10%
+  position: relative
+  > h1
+    margin: 0
+    font-size: 5em
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6)
+
+.intro-divider
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+  border-top: 1px solid #f8f8f8
+  width: 400px
+
+.intro-message > h3
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6)
+
+.navbar-default .navbar-nav > li > a
+  &:focus, &:hover
+    color: white
+    text-decoration: underline
+
+footer
+  background-color: #333
+  padding: 10px 0
+  color: #FFF
+
+.dire
+  h2
+    margin-top: 0
+.network-name
+  font-size: 14px
+  font-weight: 400
+  letter-spacing: 2px
+  text-transform: uppercase
+
+.content-section-a
+  background-color: #333
+  color: white
+  padding: 50px 0
+  h2
+    color: white
+    line-height: 1.3
+
+.content-section-b
+  border-bottom: 1px solid #e7e7e7
+  border-top: 1px solid #e7e7e7
+  color: #FFF
+  padding: 50px 0
+
+.section-heading
+  margin-bottom: 30px
+
+.section-heading-spacer
+  border-top: 3px solid #e7e7e7
+  float: left
+  width: 200px
+
+.banner
+  background-size: cover
+  background: url(../img/banner-bg.jpg) no-repeat center center
+  color: #f8f8f8
+  padding: 100px 0
+  h2
+    font-size: 3em
+    margin: 0
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6)
+  ul
+    margin-bottom: 0
+
+.banner-social-buttons
+  float: right
+  margin-top: 0
+.shadows 
+  @include box-shadow(0px 4px 5px #666, 2px 6px 10px #999)
+
+@media (max-width: 767px)
+  .intro-message
+    padding-bottom: 15%
+    > h1
+      font-size: 3em
+  ul.intro-social-buttons > li
+    display: block
+    margin-bottom: 20px
+    padding: 0
+    &:last-child
+      margin-bottom: 0
+  .intro-divider
+    width: 100%
+
+@media (max-width: 1199px)
+  ul.banner-social-buttons
+    float: left
+    margin-top: 15px
+
+@media (max-width: 767px)
+  .banner h2
+    font-size: 3em
+    margin: 0
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6)
+  ul.banner-social-buttons > li
+    display: block
+    margin-bottom: 20px
+    padding: 0
+    &:last-child
+      margin-bottom: 0

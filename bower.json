@@ -1,0 +1,26 @@
+{
+  "name": "winclap",
+  "description": "\"test front end\"",
+  "main": "",
+  "authors": [
+    "Martin"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.3",
+    "catamaran-googlefont": "*",
+    "oswald-googlefont": "*",
+    "wow": "^1.1.2",
+    "smoothscroll": "^0.3.4",
+    "bootstrap": "boostrap#3.3.7"
+  }
+}

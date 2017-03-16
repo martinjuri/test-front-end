@@ -1,0 +1,27 @@
+{
+  "name": "oswald-googlefont",
+  "license": "OFL",
+  "authors": [
+    "Vernon Adams"
+  ],
+  "homepage": "https://fonts.google.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/google-fonts-bower/oswald-bower.git"
+  },
+  "description": "Oswald font",
+  "keywords": [
+    "font",
+    "SANS_SERIF"
+  ],
+  "_release": "1e61173c2b",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "1e61173c2bdf1bf37d22848c14bae0fc0cce8a93"
+  },
+  "_source": "https://github.com/google-fonts-bower/oswald-bower.git",
+  "_target": "*",
+  "_originalSource": "oswald-googlefont",
+  "_direct": true
+}
